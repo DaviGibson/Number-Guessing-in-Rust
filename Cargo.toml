@@ -1,0 +1,13 @@
+cargo-features = ["edition2024"]
+[package]
+name = "jogo_advinha"
+version = "0.1.0"
+authors = ["Seu Nome <davigibson10@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+rand = "0.8.4"
+
+[[bin]]  # Define um executável
+name = "executavel"
+path = "main.rs"  # Caminho para o código-fonte do executável
